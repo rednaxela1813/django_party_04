@@ -39,10 +39,12 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    'tailwind',
-    'theme',
+    "tailwind",
+    "theme",
     "django_browser_reload",
-    'party',
+    "crispy_forms",
+    "crispy_bootstrap4",
+    "party",
 ]
 
 MIDDLEWARE = [
@@ -136,3 +138,5 @@ TAILWIND_APP_NAME = "theme"
 INTERNAL_IPS = [
     "127.0.0.1",
 ]
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"
